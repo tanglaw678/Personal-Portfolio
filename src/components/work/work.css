@@ -1,0 +1,66 @@
+.container.work_container {
+    width: 60%;
+    padding-bottom: 4rem;
+}
+
+.work_logo {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+
+.work{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.company_experience {
+    color: var(--color-light);
+    display: inline-block;
+    font-weight: 400;
+    text-align: left;
+    width: 100%;
+    padding-top: 1rem;
+    
+}
+
+.company_experiences {
+    display: inline-block;
+    max-inline-size: 30rem;
+    text-align: left;
+    gap: 3rem;
+
+}
+
+.company_experience-icon {
+    color: var(--color-primary);
+    margin-top: 20px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: var(--color-primary);
+
+}
+/*============== Media Queries (Medium Devices) ===============*/
+@media screen and (max-width: 1024px) {
+    .container.work_container {
+        width: 60%;
+    }
+};
+    
+/*============== Media Queries (Small Devices) ===============*/
+@media screen and (max-width: 600px) {
+    .container.work_container {
+        width: var(--container-width-sm);
+    }
+
+    .company_experience {
+        width: var(--container-width-sm);
+    }
+}
